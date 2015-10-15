@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Package Version="4">
     <Name Value="pasdoc_package"/>
@@ -9,7 +9,7 @@
       <SearchPaths>
         <IncludeFiles Value="../../component;../../component/tipue;../../component/images"/>
         <OtherUnitFiles Value="../../component;../../component/tipue"/>
-        <UnitOutputDirectory Value="lib"/>
+        <UnitOutputDirectory Value="../../../lib"/>
       </SearchPaths>
       <Parsing>
         <SyntaxOptions>
@@ -31,14 +31,13 @@
           <ShowHints Value="False"/>
         </Verbosity>
         <WriteFPCLogo Value="False"/>
-        <CompilerPath Value="$(CompPath)"/>
       </Other>
     </CompilerOptions>
     <Description Value="PasDoc - generates documentation for Pascal units by parsing units interface, extracting identifiers and associated comments. See http://pasdoc.sourceforge.net/
 "/>
     <License Value="Hashes unit licensed on GNU LGPL version >= 2. Rest of PasDoc on GNU General Public License version 2.
 "/>
-    <Version Minor="14"/>
+    <Version Minor="13"/>
     <Files Count="28">
       <Item1>
         <Filename Value="../../component/PasDoc_Aspell.pas"/>
